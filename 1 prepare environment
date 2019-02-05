@@ -1,11 +1,11 @@
 之前上算法课时，python已经安装过了，安装的3.7版本，直接上官网下载，安装一直点下一步即可，
 cmd中敲入python显示如下即可
 
-1、	下载对应版本的numpy和opencv
+**1、	下载对应版本的numpy和opencv**
 网址：http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
 http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
 这里下载对应版本即可，带cp37字样的
-2、	找到python安装路径
+**2、	找到python安装路径**
 默认的忘了，常用的安装路径C:/里没有，这时可以在程序列表中找到python3.7，打开文件位置
  
 
