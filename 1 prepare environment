@@ -1,0 +1,27 @@
+之前上算法课时，python已经安装过了，安装的3.7版本，直接上官网下载，安装一直点下一步即可，
+cmd中敲入python显示如下即可
+
+1、	下载对应版本的numpy和opencv
+网址：http://www.lfd.uci.edu/~gohlke/pythonlibs/#numpy
+http://www.lfd.uci.edu/~gohlke/pythonlibs/#opencv
+这里下载对应版本即可，带cp37字样的
+2、	找到python安装路径
+默认的忘了，常用的安装路径C:/里没有，这时可以在程序列表中找到python3.7，打开文件位置
+ 
+
+3、	将下载的工具放入安装目录的Lib/site-packages下
+ 
+这里下载了几个想用的就一路安装了。
+4、	使用pip安装指令进行安装，pip上面的截图可以看到是默认安装好了的。
+>cd C:\Users\Haley\AppData\Local\Programs\Python\Python37\Lib\site-packages
+>pip install numpy-1.16.0+mkl-cp37-cp37m-win_amd64.whl
+>pip install opencv_python-3.4.5-cp37-cp37m-win_amd64.whl
+ 
+5、验证安装成功
+>python
+Python 3.7.0 (v3.7.0:1bf9cc5093, Jun 27 2018, 04:59:51) [MSC v.1914 64 bit (AMD64)] on win32
+Type "help", "copyright", "credits" or "license" for more information.
+>>> import cv2
+>>>
+无报错即可
+有的需要安装VC++，但这里没有报错，所以就不用做那部分工作了。
