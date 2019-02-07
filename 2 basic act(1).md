@@ -1,4 +1,4 @@
-###图像的读取、显示、保存
+### 图像的读取、显示、保存
 cv2.imread() cv2.imshow() cv2.imwrite()
 
 `import cv2`
@@ -35,7 +35,7 @@ cv2.imshow()删除任何窗口 删除特定窗口 cv2.destroyWindow()
 cv2.imwrite('messigray.png',img)
 <br>
 
-####加载一个灰度图，显示图片，按下’s’保存退出，按下esc不保存退出
+#### 练习 加载一个灰度图，显示图片，按下’s’保存退出，按下esc不保存退出
 
 `import numpy as np`
 <br>
